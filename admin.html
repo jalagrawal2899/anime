@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnimeFlix Admin</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="admin-styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">AnimeFlix</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Admin Panel</h1>
+
+    <form id="anime-form" class="admin-form">
+      <h2>Add New Anime</h2>
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+
+      <label for="rating">Rating</label>
+      <input type="number" id="rating" step="0.1" min="0" max="10" required>
+
+      <label for="genre">Genre</label>
+      <input type="text" id="genre" required>
+
+      <label for="image">Image URL</label>
+      <input type="text" id="image" required>
+
+      <label for="opinion">Personal and Professional Opinion</label>
+      <textarea id="opinion" required></textarea>
+
+      <button type="submit">Add Anime</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 AnimeFlix. All rights reserved.</p>
+  </footer>
+
+  <script src="admin-script.js"></script>
+  <script src="ai-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.admin-form {
+    background-color: #000;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 10px;
+  }
+  
+  .admin-form h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .admin-form label {
+    color: #fff;
+  }
+  
+  .admin-form input,
+  .admin-form textarea {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .admin-form input[type="text"],
+  .admin-form input[type="number"],
+  .admin-form textarea {
+    padding: 10px;
+  }
+  
+  .admin-form button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
